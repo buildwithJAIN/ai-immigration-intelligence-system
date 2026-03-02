@@ -1,0 +1,23 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Firebase
+.firebase/
+functions/node_modules/
+
+# Environment
+.env
+.env.*
+functions/.env
+
+# Expo / React Native
+.expo/
+dist/
+web-build/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
