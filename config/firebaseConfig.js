@@ -5,7 +5,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Prevent multiple inits (fast-refresh safe)
 const firebaseConfig = {
-  apiKey: "AIzaSyA7qfTLU0ROh--9eeCqQxjaFlBwWDa72bc",
+  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
   authDomain: "immigrationguideapp.firebaseapp.com",
   projectId: "immigrationguideapp",
   storageBucket: "immigrationguideapp.firebasestorage.app",
